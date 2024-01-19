@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/myTripsNav"
+        android:title="Trips"
+        android:visible="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_terrain"
+        />
+    <item
+        android:id="@+id/destNav"
+        android:title="Destinations"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/ic_home"
+        />
+    <item
+        android:id="@+id/logoutNav"
+        android:title="Logout"
+        android:visible="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_logout"
+        />
+</menu>
